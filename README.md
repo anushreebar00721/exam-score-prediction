@@ -26,7 +26,13 @@ This project uses a Linear Regression model to predict student exam scores based
 
 ***4. Results***
 
-The model achieved an MAE of about 3.30 and an R² score of 0.93 using all three main features.
+The model achieved an 
+
+MAE=3.30
+
+R²=0.93 
+
+using all three main features.
 Removing the Sleep_Hours feature slightly reduced the performance.
 Adding the Practice_Tests feature improved the accuracy of the model.
 Training on the full dataset without splitting showed a much lower MAE and a very high R², which indicates overfitting.
